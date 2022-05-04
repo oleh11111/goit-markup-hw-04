@@ -35,19 +35,21 @@
 
       <ul class="contact">
         <li class="item">
-          <svg class="icon-mail">
-            <use href="./css/imige/sprite.svg#mail"></use>
-          </svg>
-          <a href="mailto:info@devstudio.com" class="link"
-            >info@devstudio.com</a
+          
+          <a href="mailto:info@devstudio.com" class="svg-link">
+            <svg class="icon-mail">
+              <use href="./css/imige/sprite.svg#mail" class=""></use>
+            </svg>info@devstudio.com</a
           >
         </li>
       
         <li class="item">
-          <svg class="icon-tel">
-            <use href="./css/imige/sprite.svg#tel"></use>
-          </svg>
-          <a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+          
+          <a href="tel:+380961111111" class="svg-link">
+            <svg class="icon-tel">
+              <use href="./css/imige/sprite.svg#tel"></use>
+            </svg>+38 096 111 11 11</a>
+          </li>
       </ul>
     </header>
     <main>
@@ -64,48 +66,52 @@
           <h2 class="title-peculiarties">Особенности</h2>
           <ul class="peculiarties-list">
             <li class="item">
-              <svg class="peculiarties-icon">
+              <div class="peculiarties-svg"><svg class="peculiarties-icon"> 
                 <use href="./css/imige/sprite.svg#antenna"></use>
                </svg>
+              </div>
               <h3 class="title">Внимание к деталям</h3>
               <p class="text">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
+            
             </li>
 
             <li class="item">
-              <svg class="peculiarties-icon">
+              <div class="peculiarties-svg"><svg class="peculiarties-icon">
                 <use href="./css/imige/sprite.svg#clock"></use>
-               </svg>
+              </svg>
+              </div>
               <h3 class="title">Пунктуальность</h3>
               <p class="text">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
+            
             </li>
 
             <li class="item">
-              <svg class="peculiarties-icon">
-                <svg class="peculiarties-icon">
-                  <use href="./css/imige/sprite.svg#diagram"></use>
-                 </svg>
+              <div class="peculiarties-svg"><svg class="peculiarties-icon">
+                <use href="./css/imige/sprite.svg#diagram"></use>
+              </svg></div>
               <h3 class="title">Планирование</h3>
-              <p class="text">
-                Равным образом консультация с широким активом в значительной
-                степени обуславливает.
-              </p>
+            <p class="text">
+              Равным образом консультация с широким активом в значительной
+              степени обуславливает.
+            </p>
             </li>
-
             <li class="item">
-              <svg class="peculiarties-icon">
+              <div class="peculiarties-svg">
+              <svg  class="peculiarties-icon">
                 <use href="./css/imige/sprite.svg#astronaut"></use>
                </svg>
-              <h3 class="title">Современные технологии</h3>
-              <p class="text">
-                Значимость этих проблем настолько очевидна, что реализация
-                плановых заданий.
-              </p>
+               </div>
+                  <h3 class="title">Современные технологии</h3>
+                <p class="text">
+                  Значимость этих проблем настолько очевидна, что реализация
+                  плановых заданий.
+                </p>
             </li>
           </ul>
         </div>
@@ -149,26 +155,40 @@
                 class="comand-img"
                 src="./css/imige/people(1).jpg"
                 width="270"
-                alt="сотрудник Product Designer"
-              />
-              <div>
+                alt="сотрудник Product Designer"/>
+              <div class="comand-info-employee">
                 <h3 class="title">Игорь Демьяненко</h3>
                 <p class="text">Product Designer</p>
+                <ul class="soc-list">
+                  <li class="soc-item">
+                    <a href="">
+                      <svg class="icon">
+                        <use href="./css/imige/sprite.svg#instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="soc-item">
+                    <a href="">
+                      <svg class="icon">
+                        <use href="./css/imige/sprite.svg#twit"> </use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="soc-item">
+                    <a href="">
+                      <svg class="icon">
+                        <use href="./css/imige/sprite.svg#facebook1"> </use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="soc-item">
+                    <a href=""> <svg class="icon">
+                      <use href="./css/imige/sprite.svg#linkedin1"> </use>
+                    </svg>
+                  </a>
+                  </li>
+                </ul>
               </div>
-              <ul>
-                <li class="comand-soc">
-                  <a href=""></a>
-                </li>
-                <li class="comand-soc">
-                  <a href=""></a>
-                </li>
-                <li class="comand-soc">
-                  <a href=""></a>
-                </li>
-                <li class="comand-soc">
-                  <a href=""></a>
-                </li>
-              </ul>
             </li>
 
             <li class="item">
@@ -176,79 +196,122 @@
                 class="comand-img"
                 src="./css/imige/people(2).jpg"
                 width="270"
-                alt="сотрудник Frontend Developer"
-              />
-              <div>
+                alt="сотрудник Frontend Developer"/>
+              <div class="comand-info-employee">
                 <h3 class="title">Ольга Репина</h3>
                 <p class="text">Frontend Developer</p>
+                <ul class="soc-list">
+                  <li class="soc-item">
+                    <a href="">
+                      <svg class="icon">
+                        <use href="./css/imige/sprite.svg#instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="soc-item">
+                    <a href="">
+                      <svg class="icon">
+                        <use href="./css/imige/sprite.svg#twit"> </use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="soc-item">
+                    <a href="">
+                      <svg class="icon">
+                        <use href="./css/imige/sprite.svg#facebook1"> </use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="soc-item">
+                    <a href=""> <svg class="icon">
+                      <use href="./css/imige/sprite.svg#linkedin1"> </use>
+                    </svg>
+                  </a>
+                  </li>
+                </ul>
               </div>
-              <ul>
-                <li class="comand-soc">
-                  <a href=""></a>
-                </li>
-                <li class="comand-soc">
-                  <a href=""></a>
-                </li>
-                <li class="comand-soc">
-                  <a href=""></a>
-                </li>
-                <li class="comand-soc">
-                  <a href=""></a>
-                </li>
-              </ul>
             </li>
-
-            <li class="item">
-              <img
-                class="comand-img"
-                src="./css/imige/people(3).jpg"
-                width="270"
-                alt="сотрудник Marketing"
-              />
-              <div>
-                <h3 class="title">Николай Тарасов</h3>
-                <p class="text">Marketing</p>
-              </div>
-              <ul>
-                <li class="comand-soc">
-                  <a href=""></a>
-                </li>
-                <li class="comand-soc">
-                  <a href=""></a>
-                </li>
-                <li class="comand-soc">
-                  <a href=""></a>
-                </li>
-                <li class="comand-soc">
-                  <a href=""></a>
-                </li>
-              </ul>
-            </li>
+              <li class="item">
+                <img
+                  class="comand-img"
+                  src="./css/imige/people(3).jpg"
+                  width="270"
+                  alt="сотрудник Marketing" />
+                <div class="comand-info-employee">
+                  <h3 class="title">Николай Тарасов</h3>
+                  <p class="text">Marketing</p>
+               
+                  <ul class="soc-list">
+                    <li class="soc-item">
+                      <a href="">
+                        <svg class="icon">
+                          <use href="./css/imige/sprite.svg#instagram"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="soc-item">
+                      <a href="">
+                        <svg class="icon">
+                          <use href="./css/imige/sprite.svg#twit"> </use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="soc-item">
+                      <a href="">
+                        <svg class="icon">
+                          <use href="./css/imige/sprite.svg#facebook1"> </use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="soc-item">
+                      <a href=""> <svg class="icon">
+                        <use href="./css/imige/sprite.svg#linkedin1"> </use>
+                      </svg>
+                    </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
             <li class="item">
               <img
                 class="comand-img"
                 src="./css/imige/people(4).jpg"
                 width="270"
-                alt="сотрудник UI Designer"
-              />
-              <div>
+                alt="сотрудник UI Designer"/>
+              <div class="comand-info-employee">
                 <h3 class="title">Михаил Ермаков</h3>
                 <p class="text">UI Designer</p>
+              
+                <ul class="soc-list">
+                  <li class="soc-item">
+                    <a href="">
+                      <svg class="icon">
+                        <use href="./css/imige/sprite.svg#instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="soc-item">
+                    <a href="">
+                      <svg class="icon">
+                        <use href="./css/imige/sprite.svg#twit"> </use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="soc-item">
+                    <a href="">
+                      <svg class="icon">
+                        <use href="./css/imige/sprite.svg#facebook1"wght20px> </use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="soc-item">
+                    <a href="" class="soc-link"> <svg class="icon">
+                      <use href="./css/imige/sprite.svg#linkedin1"> </use>
+                    </svg>
+                  </a>
+                  </li>
+                </ul>
               </div>
-              <ul>
-                <li class="comand-soc">
-                  <a href=""></a>
-                </li>
-                <li class="comand-soc">
-                  <a href=""></a>
-                </li>
-                <li class="comand-soc">
-                  <a href=""></a>
-                </li>
-                <li class="comand-soc">
-                  <a href=""></a>
-                </li>
-              </ul>
             </li>
           </ul>
         </div>
@@ -256,37 +319,39 @@
       <section class="clients">
         <div class="container">
           <h2 class="clients-title">Постоянные клиенты</h2>
-          <ul clients-list>
-            <li class="clients-item"><a href="">
-              <svg class="icon-tel">
-                <use href="./css/imige/sprite.svg#tel"></use>
+          <ul class="clients-list">
+            <li class="clients-item"><a href="" class="link">
+              <svg class="icon">
+                <use href="./css/imige/sprite.svg#client6"></use>
               </svg></a>
           </li>
-            <li><a href="">
-              <svg class="icon-tel">
-                <use href="./css/imige/sprite.svg#tel"></use>
+            <li class="clients-item"><a href="">
+              <svg class="icon">
+                <use href="./css/imige/sprite.svg#client2"></use>
               </svg></a>
             </li>
-            <li><a href="">
-              <svg class="icon-tel">
-                <use href="./css/imige/sprite.svg#tel"></use>
+            <li class="clients-item"><a href="">
+              <svg class="icon">
+                <use href="./css/imige/sprite.svg#client3"></use>
               </svg> </a>
           </li>
-            <li><a href="">
-              <svg class="icon-tel">
-                <use href="./css/imige/sprite.svg#tel"></use>
+            <li class="clients-item"><a href="">
+              <svg class="icon">
+                <use href="./css/imige/sprite.svg#client4"></use>
               </svg> </a>
           </li>
-            <li><a href=""> <svg class="icon-tel">
-              <use href="./css/imige/sprite.svg#tel"></use>
+            <li class="clients-item"><a href=""> <svg class="icon">
+              <use href="./css/imige/sprite.svg#client5"></use>
             </svg></a>
           </li>
-            <li><a href=""> <svg class="icon-tel">
-              <use href="./css/imige/sprite.svg#tel"></use>
+            <li class="clients-item"><a href=""> <svg class="icon">
+              <use href="./css/imige/sprite.svg#client6"></use>
             </svg></a>
           </li>
           </ul>
+          
         </div>
+      
       </section>
     </main>
     <footer class="footer">
@@ -302,9 +367,7 @@
                 target="_blanc"
                 class="link"
                 ><span class="address">
-                  г. Киев, пр-т Леси Украинки, 26</span
-                ></a
-              >
+                  г. Киев, пр-т Леси Украинки, 26</span></a>
             </li>
             <li class="item">
               <a href="mailto:info@example.com" class="link"
@@ -324,34 +387,31 @@
             <li class="item">
               <a href="instagram.com" class="link">
                 <svg class="icon">
-                  <use href="./css/imige/sprite.svg#in"></use>
+                  <use href="./css/imige/sprite.svg#instagram"></use>
                 </svg>
               </a>
             </li>
-          </li>
-          <li class="item"
-          <a href="facebook.com">
-            <svg class="icon">
-              <use href="./css/imige/sprite.svg#fb"></use>
-            </svg>
-          </a>
-        </li>
-      </li>
+            <li class="item">
+              <svg class="icon">
+                <use href="./css/imige/sprite.svg#twit"></use>
+              </svg>
+            </li>
+      
       <li class="item">
         <a href="linkedin.com">
           <svg class="icon">
-            <use href="./css/imige/sprite.svg#linkedin"></use>
+            <use href="./css/imige/sprite.svg#facebook1"></use>
           </svg>
         </a>
+      </li>
             <li class="item">
               <a href="twitter.com">
                 <svg class="icon">
-                  <use href="./css/imige/sprite.svg#tw"></use>
+                  <use href="./css/imige/sprite.svg#linkedin1"></use>
                 </svg>
               </a>
-
-            
-          </ul>
+              </li>
+            </ul>
         </section>
       </div>
     </footer>
