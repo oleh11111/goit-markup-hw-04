@@ -397,7 +397,7 @@ a {
 }
 
 .comand-list .title {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .comand-list .text {
@@ -447,12 +447,12 @@ a {
 }
 
 .comand .soc-link:hover,.comand .soc-link:focus{
-  border: var(--accent-color)
+  background-color: var(--accent-color)
   
 }
 
 .comand {
-  background-color: #f5f4fa;
+  background-color: var(--ccolor-withe);
 }
 
 .clients-title {
@@ -701,6 +701,9 @@ a {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.soc-link{
+  margin-top: 72px;
 }
 
 .soc-link-list {
