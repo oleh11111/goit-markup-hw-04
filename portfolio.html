@@ -19,7 +19,7 @@
   </head>
 
   <body>
-    <header>
+    <header class="heder-border">
       <div class="container header-portpholio">
         <nav class="nav-link">
           <a href="index.html" class="logo">
@@ -272,5 +272,20 @@
         </section>
       </div>
     </footer>
+    <script src="./js/modal.js">(() => {
+      const refs = {
+        openModalBtn: document.querySelector("[data-modal-open]"),
+        closeModalBtn: document.querySelector("[data-modal-close]"),
+        modal: document.querySelector("[data-modal]"),
+      };
+    
+      refs.openModalBtn.addEventListener("click", toggleModal);
+      refs.closeModalBtn.addEventListener("click", toggleModal);
+    
+      function toggleModal() {
+        refs.modal.classList.toggle("is-hidden");
+      }
+    })()
+    </script>
   </body>
 </html>
